@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
 	public static void main(String args[]){
 		System.out.println("Hallo World!");
-		ArrayList<Auto> auta = new ArrayList<>(List.of(new Audi(), new Skoda(10)));
+		ArrayList<Auto> auta = new ArrayList<>(List.of(new Audi(2), new Skoda(10)));
 
 		int i = 0;
 		for (var car : auta) {

@@ -1,9 +1,9 @@
 package com.example;
 
 public class Audi extends Auto {
-	public Audi(){
+	public Audi(int i){
 		super(20);
-		this.color = super.getColor(2);
+		this.color = super.getColor(i);
 	}
 
 	@Override
